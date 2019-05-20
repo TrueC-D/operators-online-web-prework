@@ -9,7 +9,7 @@ end
 
 
 def not_safe?(speed)
-	40>int || 60<int? true: false
+	(40>speed || 60<speed)? true: false
 end
 	
 
